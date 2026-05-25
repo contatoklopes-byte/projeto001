@@ -1,0 +1,33 @@
+<main class="produto-detalhe">
+  <section class="detalhes">
+    <a class="voltar" [routerLink]="['/home']">← Voltar aos produtos</a>
+
+    <div class="conteudo">
+      <div *ngIf="carregando()" class="loading">Carregando produto...</div>
+      <div *ngIf="!carregando() && erro()" class="erro">{{ erro() }}</div>
+
+      <div *ngIf="!carregando() && produto()" class="card-detalhe">
+        <img [src]="produto()?.imagem" alt="{{ produto()?.nome }}" />
+
+        <div class="info">
+          <h1>{{ produto()?.nome }}</h1>
+          <p class="preco">{{ produto()?.preco }}</p>
+          <p class="descricao">
+            {{ produto()?.descricao || 'Descrição completa do produto com todas as especificações técnicas, material e recomendações.' }}
+          </p>
+
+          <div class="especificacoes">
+            <h2>Especificações</h2>
+            <ul>
+              <li><strong>Categoria:</strong> Roupa / Acessório</li>
+              <li><strong>Disponibilidade:</strong> Em estoque</li>
+              <li><strong>Entrega:</strong> 3-7 dias úteis</li>
+            </ul>
+          </div>
+
+          <button class="comprar" (click)="comprar()">Comprar agora</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

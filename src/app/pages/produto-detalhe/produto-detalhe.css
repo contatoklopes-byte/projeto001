@@ -1,0 +1,95 @@
+.produto-detalhe {
+  padding: 20px;
+  background-color: rgb(225, 236, 237);
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #1e1e2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+}
+
+.card-detalhe {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 1100px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card-detalhe img {
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.preco {
+  font-size: 1.6rem;
+  color: #1e1e2f;
+  font-weight: bold;
+}
+
+.descricao {
+  line-height: 1.6;
+}
+
+.especificacoes h2 {
+  margin-bottom: 10px;
+}
+
+.especificacoes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.especificacoes li {
+  margin-bottom: 8px;
+}
+
+.comprar {
+  margin-top: auto;
+  width: fit-content;
+  border: none;
+  background: #1e1e2f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loading,
+.erro {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+@media (max-width: 900px) {
+  .card-detalhe {
+    grid-template-columns: 1fr;
+  }
+}

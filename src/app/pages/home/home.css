@@ -1,0 +1,101 @@
+.home {
+  padding: 20px;
+  background-color: rgb(225, 236, 237);
+}
+
+
+/* Banner */
+.banner {
+  height: 300px;
+  background: url(https://i.pinimg.com/1200x/e0/cd/a3/e0cda3cad98e6b0fefd20afc8671b01f.jpg) center/cover;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  border-radius: 10px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.banner button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #00ffcc;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Produtos */
+.produtos {
+  margin-top: 40px;
+}
+
+.produtos h2 {
+  margin-bottom: 20px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagem */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Preço */
+.preco {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Botão */
+.card button {
+  background: #1e1e2f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #333;
+}
+
+main {
+  margin-top: 80px;
+}

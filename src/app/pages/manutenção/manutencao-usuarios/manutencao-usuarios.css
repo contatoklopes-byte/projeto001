@@ -1,0 +1,123 @@
+.admin-layout {
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  background-color: rgb(225, 236, 237);
+}
+
+.sidebar {
+  width: 250px;
+  background: #1e1e2f;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #00ffcc;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #00ffcc;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 50px;
+}
+
+.form-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.form-grid input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1 1 250px;
+}
+
+.action-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-save {
+  background: #00ffcc;
+  color: black;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-edit {
+  background: #2a5298;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}

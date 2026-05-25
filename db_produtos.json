@@ -1,0 +1,47 @@
+
+{
+    "produtos": [
+    { "id": 1, "nome": "Camisa Piet Super Puff", "preco": "R$ 500", "imagem": "https://d1lqodvhhuo1ly.cloudfront.net/Custom/Content/Products/84/26/84266_camisa-piet-super-puff-dm-t-shirt-pr-12511-2196_m1_638322114156679202.webp" },
+    { "id": 2, "nome": "Barcelona 2014/2015 Messi", "preco": "R$ 499", "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rfey-m3xjr0qqzicdf5" },
+    { "id": 3, "nome": "Barcelona 2014/2015 Suarez", "preco": "R$ 345", "imagem": "https://i.ebayimg.com/images/g/TQoAAeSwq9BoglcE/s-l500.jpg" },
+    { "id": 4, "nome": "Barcelona 2014/2015 Neymar", "preco": "R$ 399", "imagem": "https://images.tcdn.com.br/img/img_prod/1052037/camisa_barcelona_neymar_jr_home_2014_15_5528_1_6295edb281917690e446216cc67abbf5.jpg" },
+    { "id": 5, "nome": "Nike Mercurial Superfly V CR7 FG", "preco": "R$ 799", "imagem": "https://shoxstore.com.br/wp-content/uploads/2024/10/s5fgplar_1-600x600.jpg" },
+    { "id": 6, "nome": "Relógio Adidas Cronógrafo AOSY", "preco": "R$ 1.144", "imagem": "https://images.tcdn.com.br/img/img_prod/1252243/relogio_adidas_cronografo_unissex_aosy22525m_76609_1_e88c212f2630b9b2b12a18890947ea4d.jpg" },
+    { "id": 7, "nome": "Camisa Tenho Medo de Agulha", "preco": "R$ 199,90", "imagem": "https://http2.mlstatic.com/D_NQ_NP_817658-MLB74752449093_022024-O-camiseta-academia-camisa-algodo-meme-tenho-medo-de-agulha.webp" },
+    { "id": 8, "nome": "Camisa Se Quiser sim Mano!", "preco": "R$ 113,40", "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m02c8pv8rhkt12" },
+    { "id": 9, "nome": "Camisa 3 Real Madrid 2016/17 CR7 Prime", "preco": "R$ 699,00", "imagem": "https://acdn-us.mitiendanube.com/stores/003/147/909/products/tmp_b64_27708dce-bb2f-4018-8fbe-e852bf4a97db_3147909_5604943-e86895ab277b1ea73417375848201427-1024-1024.webp" },
+    { "id": 10, "nome": "Short Nike Elastano Premium", "preco": "R$ 169,00", "imagem": "https://images.tcdn.com.br/img/img_prod/1309938/shorts_nike_elastano_premium_preto_189_1_d7ea4eda53d11593d76504f8388220c5.png" },
+    { "id": 11, "nome": "Jaqueta Corinthians Nike Total 90 Masculina", "preco": "R$ 276,00", "imagem": "https://imgnike-a.akamaihd.net/1920x1920/061130ID.jpg" },
+    { "id": 12, "nome": "Camisa São Carlo Acutis", "preco": "R$ 129,00", "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4jh4t79cqptd4" },
+    { "id": 13, "nome": "Camisa Corinthians 1 2012", "preco": "R$ 299,00", "imagem": "https://photos.enjoei.com.br/public/1200x1200/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8yMjAxNjY2MC9hZTYwYmM5ZThiNmE3NDllMzIwNmU3YTIyZGZhMGQwZi5qcGc" },
+    { "id": 14, "nome": "Luva Nike Malha Swoosh 2.0", "preco": "R$ 174,48", "imagem": "https://m.media-amazon.com/images/I/61usHI5sWnL.jpg" },
+    { "id": 15, "nome": "Balaclava Nike Aura", "preco": "R$ 189,48", "imagem": "https://w-stuff.com/cdn/shop/files/Photo_Dec_03_2024_5_21_36_PM.jpg?v=1734109203" }
+  ],
+  "pessoas": [
+    {
+      "id": "1",
+      "nome": "Kauan",
+      "email": "kauan.lopes@gmail.com",
+      "senha": "@Yunggk1"
+    },
+    {
+      "id": "2",
+      "nome": "Ariel",
+      "email": "ariel.santana@gmail.com",
+      "senha": "@ariel.sxzz"
+    },
+    {
+      "id": "03_kFL1_QSo",
+      "nome": "LorenzoGay",
+      "email": "Lorenzinigayzini@gmail.com",
+      "senha": "lorenzondaobuton"
+    },
+    {
+      "id": "-iPsa2RL5WM",
+      "nome": "KassianocHUPSGLUBS",
+      "email": "kassianochupabuba@gmail.com",
+      "senha": "kassiano"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

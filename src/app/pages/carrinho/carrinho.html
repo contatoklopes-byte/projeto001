@@ -1,0 +1,60 @@
+<main class="carrinho">
+  <section class="topo">
+    <h1>Meu Carrinho</h1>
+    <a routerLink="/home" class="voltar">← Voltar às compras</a>
+  </section>
+
+  <div *ngIf="carrinhoService.itens().length === 0" class="vazio">
+    <p>Seu carrinho está vazio.</p>
+    <p>Adicione um produto para ver ele aqui.</p>
+  </div>
+
+  <div *ngIf="carrinhoService.itens().length > 0" class="lista">
+    <div class="acoes">
+      <div class="resumo">
+        <span>{{ carrinhoService.totalQuantidade() }} produto(s) no carrinho</span>
+        <span class="total">Total: {{ formatarMoeda(carrinhoService.calcularTotalPedido()) }}</span>
+      </div>
+      <button class="finalizar" (click)="finalizarCompra()">Finalizar compra</button>
+      <button class="limpar" (click)="limpar()">Limpar carrinho</button>
+    </div>
+
+    <div class="item" *ngFor="let item of carrinhoService.itens()">
+      <img [src]="item.produto.imagem" alt="{{ item.produto.nome }}" />
+      <div class="detalhes">
+        <h2>{{ item.produto.nome }}</h2>
+        <p class="preco">{{ item.produto.preco }}</p>
+        <p>Quantidade: {{ item.quantidade }}</p>
+      </div>
+      <button class="remover" (click)="remover(item)">Remover</button>
+    </div>
+
+    <div class="resumo-pedido">
+      <h2>Resumo do Pedido</h2>
+      <div class="itens-resumo">
+        <div class="linha-item" *ngFor="let item of carrinhoService.itens()">
+          <div class="info-item">
+            <span class="nome">{{ item.produto.nome }}</span>
+            <span class="detalhes-item">{{ item.quantidade }}x {{ item.produto.preco }}</span>
+          </div>
+          <span class="subtotal">{{ formatarMoeda(calcularSubtotalItem(item)) }}</span>
+        </div>
+      </div>
+
+      <div class="totalizacao">
+        <div class="linha-total">
+          <span>Subtotal:</span>
+          <span>{{ formatarMoeda(carrinhoService.calcularTotalPedido()) }}</span>
+        </div>
+        <div class="linha-total frete">
+          <span>Frete:</span>
+          <span>Grátis</span>
+        </div>
+        <div class="linha-total principal">
+          <span>Total:</span>
+          <span>{{ formatarMoeda(carrinhoService.calcularTotalPedido()) }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,55 @@
+<div class="admin-layout">
+  <aside class="sidebar">
+        <div class="logo">
+      <h2>Produtos</h2>
+    </div>
+    <nav>
+      <ul>
+        <li routerLink="/admin">Dashboard</li>
+        <li class="active">Produtos</li>
+        <li>Pedidos</li>
+        <li routerLink="/manutencao-usuarios">Usuários</li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="admin-content">
+    <h1>Manutenção de Produtos</h1>
+
+    <section class="form-section">
+      <h3>{{ editando ? 'Alterar Produto' : 'Incluir Novo Produto' }}</h3>
+      <div class="form-grid">
+        <input type="text" [(ngModel)]="produtoForm.nome" placeholder="Nome do Produto">
+        <input type="text" [(ngModel)]="produtoForm.preco" placeholder="Preço (Ex: R$ 500)">
+        <input type="text" [(ngModel)]="produtoForm.imagem" placeholder="Link da Imagem">
+        <button class="btn-save" (click)="salvar()">{{ editando ? 'Confirmar Alteração' : 'Cadastrar' }}</button>
+        <button *ngIf="editando" class="btn-cancel" (click)="cancelarEdicao()">Cancelar</button>
+      </div>
+    </section>
+
+    <section class="table-section">
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (p of produtos(); track p.id) {
+            <tr>
+              <td>{{ p.nome }}</td>
+              <td>{{ p.preco }}</td>
+              <td>
+                <button class="btn-edit" (click)="prepararEdicao(p)">Alterar</button>
+                <button class="btn-delete" (click)="excluir(p.id)">Excluir</button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+      
+    </section>
+  </main>
+</div>

@@ -1,0 +1,352 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Camisa Piet Super Puff",
+      "preco": "R$ 500",
+      "imagem": "https://d1lqodvhhuo1ly.cloudfront.net/Custom/Content/Products/84/26/84266_camisa-piet-super-puff-dm-t-shirt-pr-12511-2196_m1_638322114156679202.webp",
+      "descricao": "Camiseta estilo oversize com acabamento super puff, ideal para um look streetwear moderno."
+    },
+    {
+      "id": "2",
+      "nome": "Barcelona 2014/2015 Messi",
+      "preco": "R$ 499",
+      "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rfey-m3xjr0qqzicdf5",
+      "descricao": "Camisa retrô do Barcelona usada por Lionel Messi na temporada 2014/2015."
+    },
+    {
+      "id": "3",
+      "nome": "Barcelona 2014/2015 Suarez",
+      "preco": "R$ 345",
+      "imagem": "https://i.ebayimg.com/images/g/TQoAAeSwq9BoglcE/s-l500.jpg",
+      "descricao": "Camisa oficial do Barcelona 2014/2015 com o nome de Luis Suárez nas costas."
+    },
+    {
+      "id": "4",
+      "nome": "Barcelona 2014/2015 Neymar",
+      "preco": "R$ 399",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1052037/camisa_barcelona_neymar_jr_home_2014_15_5528_1_6295edb281917690e446216cc67abbf5.jpg",
+      "descricao": "Camisa clássica do Barcelona, edição Neymar, perfeita para colecionadores."
+    },
+    {
+      "id": "5",
+      "nome": "Nike Mercurial Superfly V CR7 FG",
+      "preco": "R$ 799",
+      "imagem": "https://shoxstore.com.br/wp-content/uploads/2024/10/s5fgplar_1-600x600.jpg",
+      "descricao": "Chuteira profissional Nike Mercurial Superfly, design CR7 para campos firmes."
+    },
+    {
+      "id": "6",
+      "nome": "Relógio Adidas Cronógrafo AOSY",
+      "preco": "R$ 1.144",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1252243/relogio_adidas_cronografo_unissex_aosy22525m_76609_1_e88c212f2630b9b2b12a18890947ea4d.jpg",
+      "descricao": "Relógio adidas com cronógrafo, resistente à água e estilo esportivo urbano."
+    },
+    {
+      "id": "7",
+      "nome": "Camisa Tenho Medo de Agulha",
+      "preco": "R$ 199,90",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_817658-MLB74752449093_022024-O-camiseta-academia-camisa-algodo-meme-tenho-medo-de-agulha.webp",
+      "descricao": "Camiseta com estampa de meme e tecido confortável, ideal para uso diário."
+    },
+    {
+      "id": "8",
+      "nome": "Camisa Se Quiser sim Mano!",
+      "preco": "R$ 113,40",
+      "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m02c8pv8rhkt12",
+      "descricao": "Camiseta descolada com frase estilizada, feita em algodão leve e macio."
+    },
+    {
+      "id": "9",
+      "nome": "Camisa 3 Real Madrid 2016/17 CR7 Prime",
+      "preco": "R$ 699,00",
+      "imagem": "https://acdn-us.mitiendanube.com/stores/003/147/909/products/tmp_b64_27708dce-bb2f-4018-8fbe-e852bf4a97db_3147909_5604943-e86895ab277b1ea73417375848201427-1024-1024.webp",
+      "descricao": "Camisa retro do Real Madrid 2016/17, edição CR7 com detalhes autênticos."
+    },
+    {
+      "id": "10",
+      "nome": "Short Nike Elastano Premium",
+      "preco": "R$ 169,00",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1309938/shorts_nike_elastano_premium_preto_189_1_d7ea4eda53d11593d76504f8388220c5.png",
+      "descricao": "Short de elastano premium Nike, perfeito para treinos e looks confortáveis."
+    },
+    {
+      "id": "11",
+      "nome": "Jaqueta Corinthians Nike Total 90 Masculina",
+      "preco": "R$ 276,00",
+      "imagem": "https://imgnike-a.akamaihd.net/1920x1920/061130ID.jpg",
+      "descricao": "Jaqueta oficial do Corinthians da linha Total 90, com material leve e forro interno."
+    },
+    {
+      "id": "12",
+      "nome": "Camisa São Carlo Acutis",
+      "preco": "R$ 129,00",
+      "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4jh4t79cqptd4",
+      "descricao": "Camiseta temática São Carlo Acutis com corte moderno e estampa exclusiva."
+    },
+    {
+      "id": "13",
+      "nome": "Camisa Corinthians 1 2012",
+      "preco": "R$ 299,00",
+      "imagem": "https://photos.enjoei.com.br/public/1200x1200/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8yMjAxNjY2MC9hZTYwYmM5ZThiNmE3NDllMzIwNmU3YTIyZGZhMGQwZi5qcGc",
+      "descricao": "Camisa retro Corinthians 2012, perfeita tanto para colecionadores quanto para uso casual."
+    },
+    {
+      "id": "14",
+      "nome": "Luva Nike Malha Swoosh 2.0",
+      "preco": "R$ 174,48",
+      "imagem": "https://m.media-amazon.com/images/I/61usHI5sWnL.jpg",
+      "descricao": "Luva de malha Nike Swoosh 2.0, resistente e confortável para uso diário."
+    },
+    {
+      "id": "15",
+      "nome": "Balaclava Nike Aura",
+      "preco": "R$ 189,48",
+      "imagem": "https://w-stuff.com/cdn/shop/files/Photo_Dec_03_2024_5_21_36_PM.jpg?v=1734109203",
+      "descricao": "Balaclava Nike Aura com tecido respirável, ideal para proteger do frio com estilo."
+    }
+  ],
+  "pessoas": [
+    {
+      "id": "1",
+      "nome": "Kauan",
+      "email": "kauan.lopes@gmail.com",
+      "senha": "@Yunggk1",
+      "telefone": "(21) 99876-5432",
+      "endereco": "Rua das Orquídeas, 45, Rio de Janeiro - RJ",
+      "avatar": "https://i.pinimg.com/736x/0b/6c/44/0b6c44a2bb3e369362c57911c66fbcc9.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Ariel",
+      "email": "ariel.santana@gmail.com",
+      "senha": "@ariel.sxzz",
+      "telefone": "(11) 98765-4321",
+      "endereco": "Rua das Palmeiras, 123, São Paulo - SP",
+      "avatar": "https://i.pinimg.com/736x/10/ff/ec/10ffec7338394efb18b1312b002bb3e7.jpg"
+    },
+    {
+      "id": "03_kFL1_QSo",
+      "nome": "Lorenzo",
+      "email": "Lorenzini@gmail.com",
+      "senha": "lorenzondaobuton",
+      "telefone": "(31) 91234-5678",
+      "endereco": "Avenida Central, 890, Belo Horizonte - MG",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjElKScJBxAEqJF4FaV8VDA0U3nZKMr6yUA&s"
+    },
+    {
+      "id": "ydXUTcwu79s",
+      "nome": "Pedro Meira",
+      "email": "phmeiradograu@gmail.com",
+      "senha": "pedrinncarai",
+      "telefone": "(41) 91234-8765",
+      "endereco": "Praça dos Pinheiros, 210, Curitiba - PR",
+      "avatar": "https://i.pinimg.com/736x/7e/dd/fc/7eddfcef47fb69ef3d9f68a6bc4f708a.jpg"
+    }
+  ],
+  "carrinho": [
+    {
+      "id": "ZMbUcxrea-Q",
+      "produto": {
+        "id": 6,
+        "nome": "Relógio Adidas Cronógrafo AOSY",
+        "slug": "relogio-adidas-cronografo-aosy",
+        "preco": "R$ 1.144",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/1252243/relogio_adidas_cronografo_unissex_aosy22525m_76609_1_e88c212f2630b9b2b12a18890947ea4d.jpg",
+        "descricao": "Relógio adidas com cronógrafo, resistente à água e estilo esportivo urbano."
+      },
+      "quantidade": 1
+    }
+  ],
+  "compraFeita": [
+    {
+      "id": "D2HYPk_uS0c",
+      "itens": [
+        {
+          "id": "5wjLcVpY4K8",
+          "produto": {
+            "id": 12,
+            "nome": "Camisa São Carlo Acutis",
+            "slug": "camisa-sao-carlo-acutis",
+            "preco": "R$ 129,00",
+            "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4jh4t79cqptd4",
+            "descricao": "Camiseta temática São Carlo Acutis com corte moderno e estampa exclusiva."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-23T01:05:37.690Z",
+      "total": 129,
+      "usuarioId": "2",
+      "usuarioEmail": "ariel.santana@gmail.com",
+      "usuarioNome": "Ariel"
+    },
+    {
+      "id": "a3N1E8ELKoo",
+      "itens": [
+        {
+          "id": "mmQkzytG1wg",
+          "produto": {
+            "id": 15,
+            "nome": "Balaclava Nike Aura",
+            "slug": "balaclava-nike-aura",
+            "preco": "R$ 189,48",
+            "imagem": "https://w-stuff.com/cdn/shop/files/Photo_Dec_03_2024_5_21_36_PM.jpg?v=1734109203",
+            "descricao": "Balaclava Nike Aura com tecido respirável, ideal para proteger do frio com estilo."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-23T01:06:51.528Z",
+      "total": 189.48,
+      "usuarioId": "2",
+      "usuarioEmail": "ariel.santana@gmail.com",
+      "usuarioNome": "Ariel"
+    },
+    {
+      "id": "Xa8p4pcAJbU",
+      "itens": [
+        {
+          "id": "eVPJKlVLPxE",
+          "produto": {
+            "id": 5,
+            "nome": "Nike Mercurial Superfly V CR7 FG",
+            "slug": "nike-mercurial-superfly-v-cr7-fg",
+            "preco": "R$ 799",
+            "imagem": "https://shoxstore.com.br/wp-content/uploads/2024/10/s5fgplar_1-600x600.jpg",
+            "descricao": "Chuteira profissional Nike Mercurial Superfly, design CR7 para campos firmes."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-23T01:13:48.715Z",
+      "total": 799,
+      "usuarioId": "1",
+      "usuarioEmail": "kauan.lopes@gmail.com",
+      "usuarioNome": "Kauan"
+    },
+    {
+      "id": "EI40bqR-xFk",
+      "itens": [
+        {
+          "id": "m529Sh7QVqY",
+          "produto": {
+            "id": 2,
+            "nome": "Barcelona 2014/2015 Messi",
+            "slug": "barcelona-2014-2015-messi",
+            "preco": "R$ 499",
+            "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rfey-m3xjr0qqzicdf5",
+            "descricao": "Camisa retrô do Barcelona usada por Lionel Messi na temporada 2014/2015."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-24T19:17:47.298Z",
+      "total": 499,
+      "usuarioId": "2",
+      "usuarioEmail": "ariel.santana@gmail.com",
+      "usuarioNome": "Ariel"
+    },
+    {
+      "id": "MlF_tdWU_4g",
+      "itens": [
+        {
+          "id": "IaGGA2Iw1dU",
+          "produto": {
+            "id": 5,
+            "nome": "Nike Mercurial Superfly V CR7 FG",
+            "slug": "nike-mercurial-superfly-v-cr7-fg",
+            "preco": "R$ 799",
+            "imagem": "https://shoxstore.com.br/wp-content/uploads/2024/10/s5fgplar_1-600x600.jpg",
+            "descricao": "Chuteira profissional Nike Mercurial Superfly, design CR7 para campos firmes."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-25T13:07:35.740Z",
+      "total": 799,
+      "usuarioId": "2",
+      "usuarioEmail": "ariel.santana@gmail.com",
+      "usuarioNome": "Ariel"
+    },
+    {
+      "id": "rJ2_8sGpWtY",
+      "itens": [
+        {
+          "id": "N92TCf6EaCE",
+          "produto": {
+            "id": 6,
+            "nome": "Relógio Adidas Cronógrafo AOSY",
+            "slug": "relogio-adidas-cronografo-aosy",
+            "preco": "R$ 1.144",
+            "imagem": "https://images.tcdn.com.br/img/img_prod/1252243/relogio_adidas_cronografo_unissex_aosy22525m_76609_1_e88c212f2630b9b2b12a18890947ea4d.jpg",
+            "descricao": "Relógio adidas com cronógrafo, resistente à água e estilo esportivo urbano."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-25T13:09:35.138Z",
+      "total": 1.144,
+      "usuarioId": "2",
+      "usuarioEmail": "ariel.santana@gmail.com",
+      "usuarioNome": "Ariel"
+    },
+    {
+      "id": "Z0hOypkNJxs",
+      "itens": [
+        {
+          "id": "4VXE7AoKEgw",
+          "produto": {
+            "id": 7,
+            "nome": "Camisa Tenho Medo de Agulha",
+            "slug": "camisa-tenho-medo-de-agulha",
+            "preco": "R$ 199,90",
+            "imagem": "https://http2.mlstatic.com/D_NQ_NP_817658-MLB74752449093_022024-O-camiseta-academia-camisa-algodo-meme-tenho-medo-de-agulha.webp",
+            "descricao": "Camiseta com estampa de meme e tecido confortável, ideal para uso diário."
+          },
+          "quantidade": 1
+        },
+        {
+          "id": "4btBNTNZb4s",
+          "produto": {
+            "id": 2,
+            "nome": "Barcelona 2014/2015 Messi",
+            "slug": "barcelona-2014-2015-messi",
+            "preco": "R$ 499",
+            "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rfey-m3xjr0qqzicdf5",
+            "descricao": "Camisa retrô do Barcelona usada por Lionel Messi na temporada 2014/2015."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-25T13:12:05.934Z",
+      "total": 698.9,
+      "usuarioId": "2",
+      "usuarioEmail": "ariel.santana@gmail.com",
+      "usuarioNome": "Ariel"
+    },
+    {
+      "id": "wu3efuMba30",
+      "itens": [
+        {
+          "id": "oedClE5HVes",
+          "produto": {
+            "id": 6,
+            "nome": "Relógio Adidas Cronógrafo AOSY",
+            "slug": "relogio-adidas-cronografo-aosy",
+            "preco": "R$ 1.144",
+            "imagem": "https://images.tcdn.com.br/img/img_prod/1252243/relogio_adidas_cronografo_unissex_aosy22525m_76609_1_e88c212f2630b9b2b12a18890947ea4d.jpg",
+            "descricao": "Relógio adidas com cronógrafo, resistente à água e estilo esportivo urbano."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-25T13:21:14.111Z",
+      "total": 1.144,
+      "usuarioId": "1",
+      "usuarioEmail": "kauan.lopes@gmail.com",
+      "usuarioNome": "Kauan"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

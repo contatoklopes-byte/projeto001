@@ -1,0 +1,57 @@
+<div class="admin-layout">
+  <aside class="sidebar">
+    <div class="logo">
+      <h2>Usuários</h2>
+    </div>
+    <nav>
+      <ul>
+        <li routerLink="/admin">Dashboard</li>
+        <li routerLink="/manutencao-produtos">Produtos</li>
+        <li>Pedidos</li>
+        <li class="active">Usuários</li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="admin-content">
+    <h1>Manutenção de Usuários</h1>
+
+    <section class="form-section">
+      <h3>{{ editando ? 'Alterar Usuário' : 'Incluir Novo Usuário' }}</h3>
+      <div class="form-grid">
+        <input type="text" [(ngModel)]="pessoaForm.nome" placeholder="Nome do Usuário">
+        <input type="email" [(ngModel)]="pessoaForm.email" placeholder="Email">
+        <input type="password" [(ngModel)]="pessoaForm.senha" placeholder="Senha">
+      </div>
+      <div class="action-row">
+        <button class="btn-save" (click)="salvar()">{{ editando ? 'Salvar Alterações' : 'Cadastrar Usuário' }}</button>
+        <button *ngIf="editando" class="btn-cancel" (click)="cancelarEdicao()">Cancelar</button>
+      </div>
+    </section>
+
+    <section class="table-section">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Senha</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pessoa of pessoas">
+            <td>{{ pessoa.nome }}</td>
+            <td>{{ pessoa.email }}</td>
+            <td>{{ pessoa.senha ? '••••••••' : '-' }}</td>
+            <td>
+              <button class="btn-edit" (click)="prepararEdicao(pessoa)">Alterar</button>
+              <button class="btn-delete" (click)="excluir(+pessoa.id)">Excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</div>
+

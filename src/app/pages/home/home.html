@@ -1,0 +1,29 @@
+﻿<main class="home">
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1> Um Forte Abraço Pro Seu Velho Guarda-Roupas 🔥</h1>
+    <p>Confira as melhores roupas e acessórios</p>
+  </section>
+
+  <!-- Produtos -->
+  <section class="produtos">
+
+    <h2>Destaques</h2>
+
+    <div class="grid">
+
+      @for (produto of produtos(); track produto.id) {
+        <div class="card" [routerLink]="['/produto', produto.slug]">
+          <img [src]="produto.imagem" alt="{{ produto.nome }}" title="{{ produto.nome }}">
+          <h3>{{ produto.nome }}</h3>
+          <p class="preco">{{ produto.preco }}</p>
+          <button>Comprar</button>
+        </div>
+      }
+
+    </div>
+
+  </section>
+
+</main>

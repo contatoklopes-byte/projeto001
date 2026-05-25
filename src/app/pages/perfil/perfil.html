@@ -1,0 +1,61 @@
+<main class="perfil">
+  <div class="perfil-card" *ngIf="!isLoading && usuario; else loadingOrError">
+    <div class="perfil-header">
+      <div class="avatar" *ngIf="usuario.avatar; else avatarPlaceholder" [style.backgroundImage]="'url(' + usuario.avatar + ')'">
+      </div>
+      <ng-template #avatarPlaceholder>
+        <div class="avatar placeholder">?</div>
+      </ng-template>
+
+      <div class="usuario-texto">
+        <h1>{{ usuario.nome }}</h1>
+        <p class="email">{{ usuario.email }}</p>
+      </div>
+    </div>
+
+    <div class="perfil-dados">
+      <div class="campo">
+        <span>Telefone:</span>
+        <strong>{{ usuario.telefone ?? 'Não cadastrado' }}</strong>
+      </div>
+      <div class="campo">
+        <span>Endereço:</span>
+        <strong>{{ usuario.endereco ?? 'Não cadastrado' }}</strong>
+      </div>
+    </div>
+
+    <section class="historico-compras">
+      <h2>Histórico de Compras</h2>
+
+      <div *ngIf="historicoCompras.length; else semCompras">
+        <div class="compra" *ngFor="let compra of historicoCompras">
+          <div class="compra-header">
+            <span class="compra-id">Pedido: {{ compra.id }}</span>
+            <span class="compra-data">{{ formatarData(compra.data) }}</span>
+          </div>
+          <div class="compra-detalhes">
+            <span>Itens: {{ compra.itens.length }}</span>
+            <span>Total: {{ formatarMoeda(compra.total) }}</span>
+          </div>
+          <ul>
+            <li *ngFor="let item of compra.itens">
+              {{ item.produto.nome }} — {{ item.quantidade }}x
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ng-template #semCompras>
+        <p class="vazio">Nenhuma compra registrada por este usuário.</p>
+      </ng-template>
+    </section>
+
+    <a routerLink="/home" class="voltar">← Voltar às compras</a>
+  </div>
+
+  <ng-template #loadingOrError>
+    <div class="status">
+      <p *ngIf="isLoading">Carregando perfil...</p>
+      <p *ngIf="!isLoading && errorMessage" class="erro">{{ errorMessage }}</p>
+    </div>
+  </ng-template>
+</main>

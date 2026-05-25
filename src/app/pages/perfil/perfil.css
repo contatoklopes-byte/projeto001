@@ -1,0 +1,152 @@
+.perfil {
+  padding: 100px 20px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.perfil-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+}
+
+.perfil-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #00ccaa;
+}
+
+.avatar.placeholder {
+  display: grid;
+  place-items: center;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 2rem;
+}
+
+.usuario-texto h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1e1e2f;
+}
+
+.usuario-texto .email {
+  margin: 8px 0 0;
+  color: #555;
+}
+
+.perfil-dados {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.campo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.campo span {
+  color: #666;
+}
+
+.historico-compras {
+  border-top: 1px solid #eee;
+  padding-top: 24px;
+}
+
+.historico-compras h2 {
+  margin: 0 0 18px;
+  font-size: 1.2rem;
+  color: #1e1e2f;
+}
+
+.compra {
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.compra-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.compra-id {
+  font-weight: 700;
+  color: #1e1e2f;
+}
+
+.compra-data {
+  color: #777;
+  font-size: 0.95rem;
+}
+
+.compra-detalhes {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.compra-detalhes span {
+  font-size: 0.95rem;
+}
+
+.historico-compras li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 16px 0;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.vazio {
+  margin: 16px 0;
+  color: #777;
+}
+
+.voltar {
+  display: inline-block;
+  margin-top: 24px;
+  text-decoration: none;
+  color: #00ccaa;
+  font-weight: 600;
+}
+
+.status {
+  min-height: 200px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.erro {
+  color: #c60000;
+}
