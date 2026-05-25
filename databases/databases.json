@@ -346,6 +346,40 @@
       "usuarioId": "1",
       "usuarioEmail": "kauan.lopes@gmail.com",
       "usuarioNome": "Kauan"
+    },
+    {
+      "id": "PpiRH77Oumo",
+      "itens": [
+        {
+          "id": "7Cj0rWuCM2o",
+          "produto": {
+            "id": 6,
+            "nome": "Relógio Adidas Cronógrafo AOSY",
+            "slug": "relogio-adidas-cronografo-aosy",
+            "preco": "R$ 1.144",
+            "imagem": "https://images.tcdn.com.br/img/img_prod/1252243/relogio_adidas_cronografo_unissex_aosy22525m_76609_1_e88c212f2630b9b2b12a18890947ea4d.jpg",
+            "descricao": "Relógio adidas com cronógrafo, resistente à água e estilo esportivo urbano."
+          },
+          "quantidade": 1
+        },
+        {
+          "id": "oOZOLYjmckM",
+          "produto": {
+            "id": 7,
+            "nome": "Camisa Tenho Medo de Agulha",
+            "slug": "camisa-tenho-medo-de-agulha",
+            "preco": "R$ 199,90",
+            "imagem": "https://http2.mlstatic.com/D_NQ_NP_817658-MLB74752449093_022024-O-camiseta-academia-camisa-algodo-meme-tenho-medo-de-agulha.webp",
+            "descricao": "Camiseta com estampa de meme e tecido confortável, ideal para uso diário."
+          },
+          "quantidade": 1
+        }
+      ],
+      "data": "2026-05-25T15:53:09.015Z",
+      "total": 1343.9,
+      "usuarioId": "1",
+      "usuarioEmail": "kauan.lopes@gmail.com",
+      "usuarioNome": "Kauan"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
